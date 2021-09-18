@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: coral;
+    text-align: center;
+}
+
+.header input {
+    width: 65%;
+    height: 30%;
+    border: none;
+}
+
+.header .add {
+    height: 30%;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    width: 100%;
+}
+
+.list li:hover {
+    cursor: pointer;
+    /* background-color: rgb(231, 228, 228); */
+}
+
+.list li div {
+    display: flex;
+    width: 50%;
+}
+
+.list li .fa-check {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.list li .fa-times {
+    width: 4%;
+    text-align: center;
+}
+
+.list li .fa-times:hover {
+    color: white;
+    background-color: red;
+}
